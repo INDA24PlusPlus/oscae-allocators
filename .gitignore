@@ -1,0 +1,78 @@
+# chat-gpt generated .gitignore :P
+
+# Visual Studio
+.vscode/
+.vs/
+*.code-workspace
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# Compiled object files
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Precompiled Headers
+*.pch
+*.gch
+
+# Static Analysis
+*.opendb
+*.tlog
+
+# Other files
+*.log
+*.ipch
+*.iobj
+*.ipdb
+*.idb
+*.lastbuildstate
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.ncb
+*.sbr
+*.scc
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+CTestTestfile.cmake
+cmake_install.cmake
+CMakeDoxyfile.in
+CMakeDoxyfile.in.user
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific
+*~
+.nfs*
+
+# JetBrains Rider
+.idea/
