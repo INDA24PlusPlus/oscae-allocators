@@ -129,5 +129,8 @@ void FreeListAllocator::free(void* ptr) {
 }
 
 //void* FreeListAllocator::resize(void* ptr, size_t new_size) {
-//	
+//	// get block header
+//  // check if there is enough space to resize
+//  // if not, allocate new block, copy data, free old block
+//  // how do we know the alignment of the old block?
 //}
